@@ -54,13 +54,7 @@ button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-/* a,
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-} */
+
 ul li {
   list-style: none;
 }
@@ -74,129 +68,118 @@ h3,
 h4,
 h5,
 h6 {
- font-size: inherit; 
+  font-size: inherit;
   font-weight: 400;
 }
 
-body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.wrapper{
-   display: flex;
-   
+
+.wrapper {
+  display: flex;
 }
-.a{
-  
-   position: relative;
-  background-color: aliceblue; 
-   width: 100vw;
-    /* height: 100vh; */
+.a {
+  position: relative;
+  background-color: aliceblue;
+  width: 100vw;
 }
-.header{
-  width: 75%;
- 
+.header {
+  width: 74%;
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
- 
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 .watchList {
-  width: 33%;
+  width: 25%;
   font-size: 15px;
   font-weight: 200;
-
 }
 
 .headerTitle {
   width: 33%;
   font-size: 50px;
   color: rgb(47, 47, 110);
- 
 }
 .headerSearch {
-  width: 33%;
   display: flex;
   align-items: center;
-  
 }
-.headerSearch input{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.headerSearch input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   align-items: center;
   height: 25px;
   border: 1px solid rgb(50, 49, 49);
-  
 }
-.search{
+.search {
   align-items: center;
   margin-left: 165px;
   padding-right: 10px;
   color: rgb(50, 49, 49);
-
 }
-.popularMovie{
+.popularMovie {
   max-width: 75%;
   flex-wrap: wrap;
   justify-content: space-between;
   display: flex;
-  
   margin: 0 auto;
 }
-
-.movie{
-  width:380px;
+.popularMovieOne {
+  width: 33%;
+}
+.movie {
   display: flex;
   margin-bottom: 10px;
- padding-top: 10px;
+  padding-top: 10px;
   border: 2px solid blue;
   border-radius: 8px;
 }
-.infoMovie{
+.infoMovie {
   padding-left: 10px;
   align-items: center;
 }
 
-.nameMovie{
+.nameMovie {
   font-size: 25px;
-text-decoration: none;
-margin-bottom: 50px;
+  text-decoration: none;
+  margin-bottom: 50px;
 }
-.hName{
+.hName {
   text-decoration: none;
 }
 
-.genreMovie{
+.genreMovie {
   font-size: 16px;
   margin-bottom: 50px;
   color: rgb(50, 49, 49);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.genreMovie span{
+.genreMovie span {
   color: rgb(65, 65, 143);
 }
 .addToList {
   width: 120px;
-  height:35px;
+  height: 35px;
   border-radius: 6px;
   border: 2px solid rgb(154, 154, 197);
   background-color: rgb(207, 215, 215);
-  font-size:12px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(50, 49, 49);
- 
 }
 
-.deleteFromList{
+.deleteFromList {
   width: 120px;
-  height:35px;
+  height: 35px;
   border-radius: 6px;
   border: 2px solid rgb(154, 154, 197);
   background-color: rgb(207, 215, 215);
-  font-size:12px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(50, 49, 49);
 }
 
@@ -204,15 +187,12 @@ margin-bottom: 50px;
   width: 100vw;
   height: 100vh;
   padding-top: 30px;
-
-  background-color:#fff;
-  
+  background-color: #fff;
 }
-.cardOfWatchMovies{
+.cardOfWatchMovies {
   width: 500px;
   height: 500px;
   margin: 0 auto;
-
   border-radius: 6px;
   border: 2px solid rgb(154, 154, 197);
 }
@@ -222,35 +202,31 @@ margin-bottom: 50px;
   padding: 20px;
   display: flex;
   align-items: center;
- 
 }
-.headerOfWatchList p{
-font-size: 20px;
-color: rgb(47, 47, 110);
-margin-right: 10px;
-align-items: center;
+.headerOfWatchList p {
+  font-size: 20px;
+  color: rgb(47, 47, 110);
+  margin-right: 10px;
+  align-items: center;
 }
 .hrefOfWatchList {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(47, 47, 110);
 }
 .listOfMovie {
   width: 100%;
   padding: 20px;
-  
- 
 }
-.wrapperMovie{
- display: flex;
- flex-wrap: wrap;
+.wrapperMovie {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   align-items: center;
- 
 }
 .nameWatchMovie {
   width: 300px;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(47, 47, 110);
   margin-bottom: 10px;
   margin-right: 10px;
@@ -258,117 +234,96 @@ align-items: center;
 
 .buttonDelete {
   width: 120px;
-  height:35px;
+  height: 35px;
   border-radius: 6px;
   border: 2px solid rgb(154, 154, 197);
   background-color: rgb(207, 215, 215);
-  font-size:12px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(50, 49, 49);
   margin-bottom: 10px;
 }
 
-
-
-
-.wrapper2{
+.wrapper2 {
   position: fixed;
+  display: flex;
+  justify-content: center;
   width: 100vw;
   height: 100vh;
   padding: 30px;
   background-color: #fff;
   opacity: 0;
-  visibility:  hidden;
+  visibility: hidden;
 }
 
-.infoFilm{
+.infoFilm {
+  display: inline-block;
   width: 900px;
-  height:500px;
-  margin: 0 auto;
-  border-radius:10px;
+  height: 600px;
+  border-radius: 10px;
   border: 2px solid rgb(154, 154, 197);
-  background-color:#fff;
-
+  background-color: #fff;
 }
-.infoFilm_header{
+.infoFilm_header {
   width: 95%;
   height: 75px;
   border-bottom: 3px solid rgb(154, 154, 197);
   margin: 0 auto;
   display: flex;
   align-items: center;
- 
- 
-
 }
-.infoFilm_header a{
+.infoFilm_header a {
   color: rgb(154, 154, 197);
- 
   margin-bottom: -5px;
 }
-.infoFilm_nameMovie{
+.infoFilm_nameMovie {
+  margin-bottom: 0;
   font-size: 25px;
   margin-right: 10px;
   color: rgb(154, 154, 197);
-
 }
-.general{
+.general {
   width: 100%;
   display: flex;
   padding: 15px;
 }
-aside img{
-  width: 250px;
+aside img {
+  width: 300px;
 }
-content{
+content {
   padding: 10px;
 }
-.overview, .genre,.recomendations {
+.overview,
+.genre,
+.recomendations {
   margin-bottom: 15px;
 }
-.overview h2,.genre h2, .recomendations h2{
-font-size: 18px;
-color: black;
+.overview h2,
+.genre h2,
+.recomendations h2 {
+  font-size: 22px;
+  color: black;
 }
-.overview p,.genre p, .recomendations p {
-  font-size: 14px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.overview p,
+.genre p,
+.recomendations p {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: gray;
-
 }
-.infoFilm_button{
-  width: 120px;
-  height:35px;
+.infoFilm_button {
+  width: 150px;
+  height: 35px;
   margin-top: 35px;
   border-radius: 6px;
   border: 2px solid rgb(154, 154, 197);
   background-color: rgb(207, 215, 215);
-  font-size:12px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(50, 49, 49);
   margin-bottom: 10px;
 }
-.wrapper2.open{
+.wrapper2.open {
   opacity: 1;
   visibility: visible;
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
