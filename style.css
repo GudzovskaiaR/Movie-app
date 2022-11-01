@@ -1,0 +1,329 @@
+/* *--------------------------------Обнуление------------------------------------------------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+}
+.a {
+  position: relative;
+  background-color: aliceblue;
+  width: 100vw;
+}
+.header {
+  width: 74%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.watchList {
+  width: 25%;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.headerTitle {
+  width: 33%;
+  font-size: 50px;
+  color: rgb(47, 47, 110);
+}
+.headerSearch {
+  display: flex;
+  align-items: center;
+}
+.headerSearch input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  height: 25px;
+  border: 1px solid rgb(50, 49, 49);
+}
+.search {
+  align-items: center;
+  margin-left: 165px;
+  padding-right: 10px;
+  color: rgb(50, 49, 49);
+}
+.popularMovie {
+  max-width: 75%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+}
+.popularMovieOne {
+  width: 33%;
+}
+.movie {
+  display: flex;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+.infoMovie {
+  padding-left: 10px;
+  align-items: center;
+}
+
+.nameMovie {
+  font-size: 25px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+.hName {
+  text-decoration: none;
+}
+
+.genreMovie {
+  font-size: 16px;
+  margin-bottom: 50px;
+  color: rgb(50, 49, 49);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.genreMovie span {
+  color: rgb(65, 65, 143);
+}
+.addToList {
+  width: 120px;
+  height: 35px;
+  border-radius: 6px;
+  border: 2px solid rgb(154, 154, 197);
+  background-color: rgb(207, 215, 215);
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(50, 49, 49);
+}
+
+.deleteFromList {
+  width: 120px;
+  height: 35px;
+  border-radius: 6px;
+  border: 2px solid rgb(154, 154, 197);
+  background-color: rgb(207, 215, 215);
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(50, 49, 49);
+}
+
+.main_container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 30px;
+  background-color: #fff;
+}
+.cardOfWatchMovies {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 6px;
+  border: 2px solid rgb(154, 154, 197);
+}
+.headerOfWatchList {
+  width: 100%;
+  height: 75px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.headerOfWatchList p {
+  font-size: 20px;
+  color: rgb(47, 47, 110);
+  margin-right: 10px;
+  align-items: center;
+}
+.hrefOfWatchList {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(47, 47, 110);
+}
+.listOfMovie {
+  width: 100%;
+  padding: 20px;
+}
+.wrapperMovie {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.nameWatchMovie {
+  width: 300px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(47, 47, 110);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.buttonDelete {
+  width: 120px;
+  height: 35px;
+  border-radius: 6px;
+  border: 2px solid rgb(154, 154, 197);
+  background-color: rgb(207, 215, 215);
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(50, 49, 49);
+  margin-bottom: 10px;
+}
+
+.wrapper2 {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.infoFilm {
+  display: inline-block;
+  width: 900px;
+  height: 600px;
+  border-radius: 10px;
+  border: 2px solid rgb(154, 154, 197);
+  background-color: #fff;
+}
+.infoFilm_header {
+  width: 95%;
+  height: 75px;
+  border-bottom: 3px solid rgb(154, 154, 197);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.infoFilm_header a {
+  color: rgb(154, 154, 197);
+  margin-bottom: -5px;
+}
+.infoFilm_nameMovie {
+  margin-bottom: 0;
+  font-size: 25px;
+  margin-right: 10px;
+  color: rgb(154, 154, 197);
+}
+.general {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+}
+aside img {
+  width: 300px;
+}
+content {
+  padding: 10px;
+}
+.overview,
+.genre,
+.recomendations {
+  margin-bottom: 15px;
+}
+.overview h2,
+.genre h2,
+.recomendations h2 {
+  font-size: 22px;
+  color: black;
+}
+.overview p,
+.genre p,
+.recomendations p {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+.infoFilm_button {
+  width: 150px;
+  height: 35px;
+  margin-top: 35px;
+  border-radius: 6px;
+  border: 2px solid rgb(154, 154, 197);
+  background-color: rgb(207, 215, 215);
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(50, 49, 49);
+  margin-bottom: 10px;
+}
+.wrapper2.open {
+  opacity: 1;
+  visibility: visible;
+}
